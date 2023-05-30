@@ -19,8 +19,12 @@ export const Footer = () => {
           <a href="mailto: nikhiil.kamble08@gmail.com">
               <AiFillMail />
           </a>
-          <AiFillFacebook />
-          <AiFillInstagram />
+          <a href="https://www.facebook.com/inikhilkamble/">
+              <AiFillFacebook />
+          </a>
+          <a href="https://www.instagram.com/nick_amble19/">
+              <AiFillInstagram />
+          </a>
         </div>
   )
 }
