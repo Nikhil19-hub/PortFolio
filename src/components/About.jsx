@@ -47,24 +47,25 @@ export const About = () => {
 }
 
   return (
-          <section className="min-h-screen font-burtons p-10 lg:p-20">
+          <section className="min-h-screen font-burtons py-10 lg:p-20 ">
         <TrackVisibility>
          {({ isVisible }) =>
         <div className={isVisible ? "animate__animated animate__pulse" : ""}>
-        <div className="text-center p-10 ">
+        <div className="text-center p-2 justify-center">
           <h1 className='text-5xl mb-3 text-orange-500'>{`Hi! I'm Nikhil`} <br /><span className="text-3xl mb-2 pb-10 text-white" dataPeriod="1000" data-rotate='[ "Web Developer", "Software Enginner", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
           <p className="text-2xl leading-9 md:max-w-xl mx-auto">
-            Front-end wizard, obsessed with crafting visually stunning and engaging user interfaces that bring websites to life. <br />
+            Front-end wizard, obsessed with crafting visually stunning and engaging user interfaces that bring websites to life.
             My toolkit includes HTML, CSS, and JavaScript, along with a deep understanding of popular front-end frameworks such as React and Angular. <br />
             From creating custom UI components to optimizing website performance, I thrive on solving complex problems with elegant solutions. <br />
             If you're looking for a front-end developer who's passionate about pushing the boundaries of what's possible online then, <br /> <a href="#contact"><span className='text-orange-500 animate__animated animate__bounce text-3xl'>Let's Connect.</span></a>
           </p>
         </div>
-        <div className="mx-auto bg-gradient-to-b from-gray-800 to-white rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-          <img src={pic} alt="" />
-        </div>
+        
         </div>}
         </TrackVisibility>
+        <div className="justify-center items-center mx-auto bg-gradient-to-b from-gray-800 to-white rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+          <img src={pic} alt="" />
+        </div>
       </section>
   )
 }

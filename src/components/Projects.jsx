@@ -58,7 +58,7 @@ export const Projects = () => {
                 <a href="https://orderlyy.netlify.app/">
                   <img alt="Orderly - Food Ordering App" src={Orderly}  className="h-auto w-auto object-cover"/>
                 </a>
-                <div className="pt-10 flex items-center justify-center text-2xl gap-10 text-black">
+                <div className="pt-10 flex items-center justify-center text-2xl gap-2 lg:gap-5 text-black">
                 Tech Stack |
                 <SiReact/>
                 <SiMongodb/>
@@ -72,7 +72,7 @@ export const Projects = () => {
                 <a href="https://lxk3008.uta.cloud/">
                   <img alt="University Housing Portal" src={Housing}  className="h-auto w-auto object-cover"/>
                 </a>
-                <div className="pt-10 flex items-center justify-center text-2xl gap-10 text-black">
+                <div className="pt-10 flex items-center justify-center text-2xl gap-2 text-black">
                 Tech Stack |
                 <SiReact/>
                 <SiMysql/>
@@ -85,7 +85,7 @@ export const Projects = () => {
                 <a href="https://nikhlya.netlify.app/">
                   <img alt="nikhlya-cloud hosting website" src={nikhlya}  className="h-auto w-auto object-cover"/>
                 </a>
-                <div className="pt-10 flex items-center justify-center text-2xl gap-10 text-black">
+                <div className="pt-10 flex items-center justify-center text-2xl gap-2 text-black">
                 Tech Stack |
                 <SiHtml5/>
                 <SiCss3/>
